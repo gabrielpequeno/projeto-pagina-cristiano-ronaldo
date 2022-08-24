@@ -1,17 +1,158 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flor & display=swap');
+
+@font-face {
+    font-family: 'Menu';
+    src: url('fonts/Play-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('fonts/Questrial-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Textos';
+    src: url('fonts/Play-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Paragrafo';
+    src: url(fonts/IndieFlower-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px;
 }
+:root {
+    --cor01: #c80201;
+    --cor02: #039930;
+
+    --font-menu: 'Menu', 'cursive';
+    --font-Textos: 'Textos', 'cursive';
+    --font-paragrafo: 'Paragrafo', 'cursive';
+}
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(243, 243, 243);
-    margin: 0;
-    padding: 0;
-    justify-content: center;
+    background-image: url(imagens/papeldeparede.jpg);
+    background-color: black;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
 }
+
+header {
+    width: 100%vh;
+    height: auto;
+}
+
+nav {
+    width: 98.8vw;
+    height: 30px;
+    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 2px black;
+}
+
+nav a {
+    font-family: var(--font-Textos);
+    width: 63px;
+    height: 30px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+nav a:hover {
+    background-color: #3b4b406c;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-a {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container-a img {
+    width: 400px;
+    margin-right: 15px;
+}
+
+.container-a p {
+    padding-top: 10px;
+    text-align: center;
+    width: 530px;
+    height: 400px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: var(--font-paragrafo);
+    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
+    border-radius: 10px;
+}
+
+span {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--font-menu);
+    border-radius: 10px;
+    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
+
+}
+
+.container-b {
+    width: 160px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.container-b p {
+    font-size: 27px;
+    font-family: var(--font-Textos);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.container-b img {
+    width: 100px;
+    background: linear-gradient(to right, #22802223, #ca0b0b1e);
+    border-radius: 5px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #039930b0;
+}
+
+footer a {
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
