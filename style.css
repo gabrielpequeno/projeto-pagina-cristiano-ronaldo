@@ -42,7 +42,8 @@
 }
 
 body {
-    background-image: url(imagens/papeldeparede.jpg);
+    background: rgb(11,11,11);
+    background: linear-gradient(108deg, rgba(11,11,11,1) 0%, rgba(26,112,14,1) 45%, rgba(222,23,23,1) 100%);
     background-color: black;
     background-position: center center;
     background-attachment: fixed;
@@ -57,9 +58,8 @@ header {
 }
 
 nav {
-    width: 98.8vw;
+    width: 98.7vw;
     height: 30px;
-    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -100,28 +100,24 @@ nav a:hover {
 
 .container-a p {
     padding-top: 10px;
+    margin-bottom: 100px;
     text-align: center;
     width: 530px;
     height: 400px;
     font-weight: 500;
     font-size: 25px;
     font-family: var(--font-paragrafo);
-    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
-    border-radius: 10px;
 }
 
 span {
-    text-align: center;
-    font-size: 40px;
+    color: black;
+    font-size: 60px;
     font-family: var(--font-menu);
-    border-radius: 10px;
-    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
-
 }
 
 .container-b {
     width: 160px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
@@ -131,17 +127,12 @@ span {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
-    background: linear-gradient(to right, #228022cc, #ca0b0bfa);
-    border-radius: 4px;
     cursor: pointer;
 
 }
 
 .container-b img {
     width: 100px;
-    background: linear-gradient(to right, #22802223, #ca0b0b1e);
-    border-radius: 5px;
-    
 }
 
 footer {
