@@ -48,7 +48,7 @@
 }
 
 html {
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
     font-size: 62.5%;
     color: white;
@@ -56,7 +56,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 96vw;
     background: rgb(11,11,11);
     background: linear-gradient(108deg, rgba(11,11,11,1) 0%, rgba(26,112,14,1) 45%, rgba(222,23,23,1) 100%);
     background-color: black;
@@ -66,7 +66,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 96vw;
     height: 7vh;
     background: linear-gradient(108deg, rgba(11,11,11,1) 0%, rgba(26,112,14,1) 45%, rgba(222,23,23,1) 100%);
 }
@@ -89,6 +89,7 @@ header {
 .menu-content .list-itens {
     display: flex;
     list-style: none;
+    border: 2px solid black;
     gap: 10px;
 }
 
@@ -188,61 +189,82 @@ footer a {
 
 @media (max-width: 450px) {
     #header {
-        max-width: 100vw;
+        position: relative;
+        max-width: 94.3vw;
         padding-left: 4px;
     }
 
     body {
-        max-width: 100%;
+        max-width: 96vw;
     }
 
     #main {
-        max-width: 100%;
+        max-width: 96vw;
     }
 
     #nav {
-        max-width: 100vw;
+        max-width: 94.3vw;
         font-size: 12px;
         margin-left: 5px;
     }
 
+    .menu-content .list-itens {
+        max-width: 91vw;
+    }
+
     #container1 {
         flex-direction: column;
-        max-width: 97%;
+        max-width: 97vw;
         padding-top: 15px;
     }
 
     #container1 img {
         max-width: 87%;
+        margin-bottom: 20px;
+    }
+
+    span {
+        width: 70vw;
+        height: auto;
+        margin-top: 20px;
+        font-size: 2.9em;
     }
 
     #texto {
         flex-direction: column;
         text-align: center;
-        max-width: 100vw;
+        max-width: 95vw;
     }
+    
 
     #texto p {
-        max-width: 97vw;
+        position: relative;
+        max-width: 330px;
+        padding-top: 40px;
+        font-size: 1.7em;
     }
 
     #container2 {
+        flex-direction: column;
         width: 40vw;
         border: 2px solid black;
+        margin-left: 100px;
+        margin-bottom: 200px;
     }
 
     #container2 img {
         flex-direction: column;
-        align-items: center;
         width: 20em;
+        margin-right: 300px;
     }
 
     #rodape {
-        max-width: 100%;
+        max-width: 94.3vw;
         border: 2px solid black;
     }
 
     #rodape p {
-        width: 100vw;
+        width: 93vw;
+        text-align: center;
     }
 }
