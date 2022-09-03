@@ -89,7 +89,6 @@ header {
 .menu-content .list-itens {
     display: flex;
     list-style: none;
-    border: 2px solid black;
     gap: 10px;
 }
 
@@ -247,7 +246,6 @@ footer a {
     #container2 {
         flex-direction: column;
         width: 40vw;
-        border: 2px solid black;
         margin-left: 100px;
         margin-bottom: 200px;
     }
@@ -259,12 +257,11 @@ footer a {
     }
 
     #rodape {
-        max-width: 94.3vw;
-        border: 2px solid black;
+        max-width: 95.4vw;
     }
 
     #rodape p {
-        width: 93vw;
+        width: 95vw;
         text-align: center;
     }
 }
