@@ -204,6 +204,7 @@ footer a {
 
     body {
         width: 96%;
+        background-repeat: no-repeat;
     }
 
     main {
